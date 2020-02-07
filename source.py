@@ -1,21 +1,5 @@
-
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
 from tkinter import *
 import tkinter.messagebox
-from PIL import Image
-
-def showRules():
-    img=Image.open('./TicTacToe.png')
-    img.show()
-showRules()
-
-# In[94]:
-
 
 root = Tk()
 root.geometry("1280x720+0+0")
@@ -284,6 +268,3 @@ button9.grid(row=3, column=2, sticky = S+N+E+W)
 
 root.mainloop()
 
-
-
-# In[ ]:
